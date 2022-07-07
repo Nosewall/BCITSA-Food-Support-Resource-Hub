@@ -9,7 +9,7 @@ import CovidModal from "../covidModal/CovidModal";
 import GetHelpModal from "../getHelpModal/GetHelpModal";
 import ReactGA from "react-ga";
 import ResourceRecommender from "../resourceRecommender/ResourceRecommender";
-import logo from "./CLB_PrimaryLogo.png";
+import logo from "./FSH_PrimaryLogo.png";
 
 ReactGA.initialize("UA-139413334-1");
 
@@ -84,27 +84,9 @@ function Header(props) {
 
   return (
     <section className="b1">
-      {/*  {<Announcement
-                        icon={{name: "wrench"}}
-                        text={["Have finance/marketing skills? ", <b>We are hiring!</b>]}
-                        button={{
-                            content:"Join us",
-                            onClick: () => window.open("https://docs.google.com/forms/d/e/1FAIpQLSfuV4-Eqm_lB32EjQn1Be_GjRIdETJyavbctmfwvf2fXvpOIw/viewform?usp=sf_link")
-                        }}
-                    /> } */}
-      <div className="helpbutton">
-        <Button onClick={handleCrisis} color="red">
-          <Icon name="heart outline" />
-          Get Help Now
-        </Button>
-        <GetHelpModal isCrisis={isCrisis} setIsCrisis={setIsCrisis} />
-      </div>
-      <div className="covidbutton">
-        <CovidModal />
-      </div>
       <div className="stuff">
         <img className="titleImage" src={logo} alt="Campus Lightbox" />
-        <div className="guide">Your Guide to UBC Mental Health Resources</div>
+        <div className="guide">Your Guide to BCITSA Food support resources</div>
         <div className="select">Select From One of the Following Options</div>
 
         <div className="startquiz" style={{ right: right }}>
@@ -142,57 +124,33 @@ function Header(props) {
             <Button
               inverted
               style={styles.button}
-              onClick={() => onFilterClicked("peer")}
+              onClick={() => onFilterClicked("peer")} // RETURN
             >
-              Peer Support
+              Groceries
             </Button>
           </span>
           <span className="resourceButton2 animated fadeIn">
             <Button
               inverted
               style={styles.button}
-              onClick={() => onFilterClicked("professional")}
+              onClick={() => onFilterClicked("professional")} // RETURN
             >
-              Professional Help
+              Nutrition and Education
             </Button>
           </span>
           <span className="resourceButton3 animated fadeIn">
             <Button
               inverted
               style={styles.button}
-              onClick={() => onFilterClicked("phone")}
+              onClick={() => onFilterClicked("phone")} // RETURN
             >
-              Phone Hotline
+              Financial Assistance
             </Button>
           </span>
         </div>
         <br />
         <br />
-        <div className="resourceButton4 animated fadeIn">
-          <Modal
-            dimmer="blurring"
-            trigger={
-              <Button color="green" style={styles.buttonResource}>
-                Resource Recommender
-              </Button>
-            }
-            closeIcon
-            size="large"
-          >
-            <Modal.Header>Resource Recommender</Modal.Header>
-            <Modal.Content>
-              <Modal.Description>
-                <ResourceRecommender />
-              </Modal.Description>
-            </Modal.Content>
-
-            {/* <Modal.Actions>
-                <GetHelpModal />
-              </Modal.Actions> */}
-          </Modal>
-          <br />
-          <br />
-        </div>
+        
         <div className="ButtonClass animated fadeInDown">
           <Button
             onClick={onScrollDownClicked}
