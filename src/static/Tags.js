@@ -1,4 +1,5 @@
 import _ from "underscore";
+
 const tags = {
   free: {
     category: "cost",
@@ -13,7 +14,9 @@ const tags = {
     show: true,
     TopTen: false,
   },
+
   // end of cost category
+  
   northVancouver: {
     category: "Location",
     displayName: "North vancouver",
@@ -21,7 +24,6 @@ const tags = {
     show: true,
     TopTen: true,
   },
-
   vancouver: {
     category: "Location",
     displayName: "Vancouver",
@@ -65,7 +67,9 @@ const tags = {
     color: "#B6595B",
     show: false,
   },
+
   // end of location
+
   groceries: {
     category: "Type",
     displayName: "Groceries",
@@ -120,6 +124,7 @@ const tags = {
     color: "#2C8551",
     show: false,
   },
+
   // end of Type category
 
   families: {
@@ -139,14 +144,14 @@ const tags = {
 
   yes: {
     category: "Refferal Needed",
-    displayName: "Yes",
+    displayName: "Refferal Needed",
     color: "#8660C3",
     show: true,
     TopTen: true,
   },
   no: {
     category: "Refferal Needed",
-    displayName: "No",
+    displayName: "No Refferal Needed",
     color: "#000000",
     show: true,
     TopTen: true,
