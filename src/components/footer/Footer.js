@@ -7,7 +7,6 @@ import {
   Segment,
 } from 'semantic-ui-react';
 
-import FeedbackModal from 'components/feedbackModal/FeedbackModal';
 import PrivacyPolicy from 'components/footer/PrivacyPolicy';
 import React from 'react';
 import ReactGA from 'react-ga';
@@ -41,7 +40,7 @@ const FixedMenuLayout = () => (
       <Container textAlign="center">
         <Grid stackable>
           <Grid.Column width={5} alignitems="center">
-            <Header inverted as="h4" content="Brought to you by:" />
+            <Header inverted as="h4" content="Food Support Hub has been forked from a project created by:" />
             <Modal
               trigger={
                 <Button onClick={() => trackGA('About Project Aurora')}>
@@ -58,7 +57,7 @@ const FixedMenuLayout = () => (
                 <Modal.Description>
                   <center>
                     <p>
-                      Campus Lightbox was envisioned and created by{' '}
+                      Food Support Hub was adapted from {' '}
                       <a
                         href="https://www.projectaurora.ca/"
                         target="_blank"
@@ -92,22 +91,22 @@ const FixedMenuLayout = () => (
             <br />
             Email us:{' '}
             <a
-              href="mailto:admin@campuslightbox.com"
+              href="mailto:info@bcitsa.ca"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: 'white', textDecoration: 'none' }}
             >
-              admin@campuslightbox.com
+              info@bcitsa.ca
             </a>
             <br />
-            Resources last updated March 8, 2022
+            Resources last updated July 7th, 2022
           </Grid.Column>
 
           <Grid.Column width={4} alignitems="center">
             <Header inverted as="h4" content="Follow us:" />
             <Button.Group style={styles.socialGroup}>
               <a
-                href="https://www.facebook.com/campuslightbox/"
+                href="https://www.facebook.com/BCITSA"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -120,7 +119,7 @@ const FixedMenuLayout = () => (
                 />
               </a>
               <a
-                href="https://www.instagram.com/campuslightbox/"
+                href="https://www.instagram.com/bcitsa/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -133,20 +132,20 @@ const FixedMenuLayout = () => (
                 />
               </a>
               <a
-                href="https://twitter.com/campuslightbox/"
+                href="https://www.youtube.com/bcitsa"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button
-                  onClick={() => trackGA('Twitter')}
+                  onClick={() => trackGA('Youtube')}
                   size="large"
                   circular
-                  color="twitter"
-                  icon="twitter"
+                  color="youtube"
+                  icon="youtube"
                 />
               </a>
               <a
-                href="https://www.linkedin.com/company/project-aurora/"
+                href="https://ca.linkedin.com/company/bcit-student-association"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -159,9 +158,7 @@ const FixedMenuLayout = () => (
                 />
               </a>
             </Button.Group>
-            <FeedbackModal
-              trigger={<Button color="orange">Give Us Feedback</Button>}
-            />
+
           </Grid.Column>
 
           <Grid.Column width={7}>
@@ -172,11 +169,10 @@ const FixedMenuLayout = () => (
             />
             <h6>
               We are not affiliated, associated, authorized, endorsed by, or in
-              any way officially connected with the University of British
-              Columbia, or any of its subsidiaries or its affiliates. The
-              official University of British Columbia website can be found{' '}
+              any way officially connected with the British Columbia Institute of Technology, or any of its subsidiaries or its affiliates. The
+              official BCIT website can be found{' '}
               <a
-                href="https://www.ubc.ca/"
+                href="https://www.bcit.ca/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: 'white', textDecoration: 'none' }}
@@ -185,7 +181,6 @@ const FixedMenuLayout = () => (
               </a>
               .
             </h6>
-            <PrivacyPolicy></PrivacyPolicy>
           </Grid.Column>
         </Grid>
       </Container>

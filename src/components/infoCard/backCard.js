@@ -5,7 +5,6 @@ import { styles, isOpen } from "./InfoCard";
 
 import _ from "underscore";
 import moment from "moment";
-import FeedbackModal from "components/feedbackModal/FeedbackModal";
 
 const BackCard = (props) => {
   const { name, hours, phone, address, email, social, notes } = props;
@@ -60,20 +59,7 @@ const BackCard = (props) => {
 
   const renderReportButton = () => {
     return (
-      <div id="report-button">
-        <FeedbackModal
-          trigger={
-            <Button basic icon floated="right" size="small">
-              <Popup
-                size="tiny"
-                content="Report incorrect information"
-                trigger={<Icon name="flag" />}
-              />
-            </Button>
-          }
-          subject={'Inaccurate information regarding "' + name + '"'}
-        />
-      </div>
+      <br></br>
     );
   };
 

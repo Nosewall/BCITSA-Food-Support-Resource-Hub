@@ -4,11 +4,7 @@ import "./animate.css";
 
 import { Button, Icon, Modal } from "semantic-ui-react";
 import React, { useEffect, useState } from "react";
-
-import CovidModal from "../covidModal/CovidModal";
-import GetHelpModal from "../getHelpModal/GetHelpModal";
 import ReactGA from "react-ga";
-import ResourceRecommender from "../resourceRecommender/ResourceRecommender";
 import logo from "./FSH_PrimaryLogo.png";
 
 ReactGA.initialize("UA-139413334-1");
@@ -89,42 +85,12 @@ function Header(props) {
         <div className="guide">Your Guide to BCITSA Food support resources</div>
         <div className="select">Select From One of the Following Options</div>
 
-        <div className="startquiz" style={{ right: right }}>
-          <h4 id="helper" style={{ right: right2 }}>
-            Help me pick
-          </h4>
-          <Modal
-            dimmer="blurring"
-            trigger={
-              <button className="circular ui icon button green massive">
-                <i className="icon leaf"></i>
-              </button>
-            }
-            closeIcon
-            size="large"
-          >
-            <Modal.Header>Resource Recommender</Modal.Header>
-            <Modal.Content>
-              <Modal.Description>
-                <ResourceRecommender />
-              </Modal.Description>
-            </Modal.Content>
-
-            {/* <Modal.Actions>
-                <GetHelpModal />
-              </Modal.Actions> */}
-          </Modal>
-
-          <br />
-          <br />
-        </div>
-
         <div className="buttonsAll">
           <span className="resourceButton1 animated fadeIn">
             <Button
               inverted
               style={styles.button}
-              onClick={() => onFilterClicked("peer")} // RETURN
+              onClick={() => onFilterClicked("groceries")} // RETURN
             >
               Groceries
             </Button>
@@ -133,18 +99,18 @@ function Header(props) {
             <Button
               inverted
               style={styles.button}
-              onClick={() => onFilterClicked("professional")} // RETURN
+              onClick={() => onFilterClicked("sustainable")} // RETURN
             >
-              Nutrition and Education
+              Sustainable
             </Button>
           </span>
           <span className="resourceButton3 animated fadeIn">
             <Button
               inverted
               style={styles.button}
-              onClick={() => onFilterClicked("phone")} // RETURN
+              onClick={() => onFilterClicked("hampers")} // RETURN
             >
-              Financial Assistance
+              Hampers
             </Button>
           </span>
         </div>

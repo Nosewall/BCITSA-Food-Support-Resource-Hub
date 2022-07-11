@@ -289,7 +289,7 @@ const resources = [
       "sunday": "",
       "others": "",
   },
-  notes: ""
+  notes: "This is a note. Ka chow. http://www.IamANoteHyper.com"
 },
 {
   name: "BC Farmers’ Market Nutrition Coupon Program", 
@@ -318,7 +318,7 @@ const resources = [
   name: "Ryan’s Rainbow Emergency Food Outreach", 
   description: "Provides weekly grocery hampers. Call or text 604-761-4357 to learn more. ",
   logo: "",
-  tags: ["groceries", "hampers", "burnaby", "no", "freshFood", "no"],
+  tags: ["groceries", "hampers", "burnaby", "no", "freshFood",],
   phone:"604-761-4357",
   social: {
       "website": "https://ryansrainbowemergencyfoodoutreach.business.site/ ",
