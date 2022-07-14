@@ -66,6 +66,13 @@ const tags = {
     show: false,
     TopTen: true,
   },
+  langley: {
+    category: "Location",
+    displayName: "Langley",
+    color: "#63d4ce",
+    show: false,
+    TopTen: true,
+  },
   virtual: {
     category: "Location",
     displayName: "Virtual",

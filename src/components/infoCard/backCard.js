@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Divider, Icon, Button, Popup, Grid } from "semantic-ui-react";
 import "./InfoCard.css";
 import { styles, isOpen } from "./InfoCard";
+import Linkify from "linkify-react";
 
 import _ from "underscore";
 import moment from "moment";
@@ -155,7 +156,7 @@ const BackCard = (props) => {
     return (
       <Grid.Row key="back-notes" style={styles.backRow}>
         <Divider style={styles.divider} />
-        <Card.Content style={styles.infoCardSection}>{notes}</Card.Content>
+        <Card.Content style={styles.infoCardSection}><Linkify>{notes}</Linkify></Card.Content>
       </Grid.Row>
     );
   };

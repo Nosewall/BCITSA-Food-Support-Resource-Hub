@@ -8,6 +8,7 @@ import _ from "underscore";
 import defaultbackground from "./mountains.jpg";
 import Tags from "static/Tags";
 import moment from "moment";
+import Linkify from "linkify-react";
 
 const FrontCard = (props) => {
   const { logo, background, name, description, tags, hours } = props;
@@ -70,7 +71,7 @@ const FrontCard = (props) => {
       </MediaQuery>
       <Card.Content key="front-content" style={styles.infoCardFrontContent}>
         <Card.Header>{name}</Card.Header>
-        <Card.Description>{description}</Card.Description>
+        <Card.Description><Linkify>{description}</Linkify></Card.Description>
       </Card.Content>
       <Card.Content key="front-extra" style={styles.infoCardFrontContent} extra>
         <Card.Meta style={{ marginBottom: 8 }}>
