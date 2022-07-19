@@ -1,4 +1,18 @@
 import bcitsaLogo from "./logos/bcitsa.png";
+import shareLogo from "./logos/SHARE food Bank.jpg"
+import surreyLogo from "./logos/Surrey Food Bank.png"
+import saigeLogo from "./logos/Saige Food Bank.png"
+import ryanLogo from "./logos/Ryan's Rainbow Emergency Food Outreach.png"
+import richmondLogo from "./logos/Richmond Food Bank.png"
+import questLogo from "./logos/Quest Food Exchange.png"
+import muslimLogo from "./logos/Muslim Food Bank.png"
+import langleyLogo from "./logos/Langley Food Bank.png"
+import omeedLogo from "./logos/House of Omeed.png"
+import greaterFoodBankLogo from "./logos/Greater Vancouver Food Bank Logo.png"
+import foodStashLogo from "./logos/Food Stash Rescued Food Marketr.png"
+import indigenousLogo from "./logos/BCIT Indigenous Initiatives Garden.png"
+import farmersLogo from "./logos/BC Farmers Market Nutrition Coupon Program.jpg"
+import mapLogo from "./logos/mapLogo.png"
 
 /*
     ##last updated: May, 7, 2019##
@@ -150,7 +164,7 @@ const resources = [
 {
   name: "Indigenous Initiatives Garden", 
   description: "Located in the courtyard between SW3 and SW1, the Indigenous Garden provides a peaceful green space and dedicated area that cultivates a range of Indigenous plants.",
-  logo: "",
+  logo: indigenousLogo,
   tags: [
     "burnaby",
     "growingFood",
@@ -168,7 +182,7 @@ const resources = [
 {
   name: "Greater Vancouver Food Bank - Burnaby Location", 
   description: "The Greater Vancouver Food Bank was set up as a temporary relief to the hunger crisis in 1983, but the need still exists today. We receive no ongoing government funding and exist solely through the generosity of the public, our industry partners, and applicable grants.  Each month we provide healthy food to around 10,000 individuals and families in need, and 120 Community Agency Partners across Vancouver, Burnaby, New Westminster and the North Shore. Our mission is to provide healthy food to those in need.",
-  logo: "",
+  logo: greaterFoodBankLogo,
   tags: ["burnaby", "free", "no", "groceries", "hampers"],
   phone:"604-876-3601 ",
   social: {
@@ -182,7 +196,7 @@ const resources = [
 {
   name: "Greater Vancouver Food Bank - Vancouver Location", 
   description: "The Greater Vancouver Food Bank was set up as a temporary relief to the hunger crisis in 1983, but the need still exists today. We receive no ongoing government funding and exist solely through the generosity of the public, our industry partners, and applicable grants.  Each month we provide healthy food to around 10,000 individuals and families in need, and 120 Community Agency Partners across Vancouver, Burnaby, New Westminster and the North Shore. Our mission is to provide healthy food to those in need.",
-  logo: "",
+  logo: greaterFoodBankLogo,
   tags: ["vancouver", "free", "no", "groceries", "hampers"],
   phone:"604-876-3601 ",
   social: {
@@ -196,7 +210,7 @@ const resources = [
 {
   name: "Greater Vancouver Food Bank - New West Location", 
   description: "The Greater Vancouver Food Bank was set up as a temporary relief to the hunger crisis in 1983, but the need still exists today. We receive no ongoing government funding and exist solely through the generosity of the public, our industry partners, and applicable grants.  Each month we provide healthy food to around 10,000 individuals and families in need, and 120 Community Agency Partners across Vancouver, Burnaby, New Westminster and the North Shore. Our mission is to provide healthy food to those in need.",
-  logo: "",
+  logo: greaterFoodBankLogo,
   tags: ["newWest", "free", "no", "groceries", "hampers"],
   phone:"604-876-3601 ",
   social: {
@@ -210,7 +224,7 @@ const resources = [
 {
   name: "Greater Vancouver Food Bank - North Vancouver Location", 
   description: "The Greater Vancouver Food Bank was set up as a temporary relief to the hunger crisis in 1983, but the need still exists today. We receive no ongoing government funding and exist solely through the generosity of the public, our industry partners, and applicable grants.  Each month we provide healthy food to around 10,000 individuals and families in need, and 120 Community Agency Partners across Vancouver, Burnaby, New Westminster and the North Shore. Our mission is to provide healthy food to those in need.",
-  logo: "",
+  logo: greaterFoodBankLogo,
   tags: ["northVancouver", "free", "no", "groceries", "hampers"],
   phone:"604-876-3601 ",
   social: {
@@ -224,7 +238,7 @@ const resources = [
 {
   name: "Surrey Food Bank", 
   description: "The Surrey Food Bank provides food to families living in Surrey and North Delta. We pride ourselves in supplying nutritious food in a respectful and dignified environment. In addition, we believe it is our responsibility to connect our clients to other community services as a means of helping them become self-sufficient. We take pride that we “Invite, Inform, Involve and Inspire” our community.",
-  logo: "",
+  logo: surreyLogo,
   tags: ["surrey", "free", "no", "groceries", "hampers", "families"],
   phone:"604-581-5443",
   social: {
@@ -238,7 +252,7 @@ const resources = [
 {
   name: "Langley Food Bank", 
   description: "The Langley Food Bank is an incorporated society, registered with Revenue Canada as a non-profit organization, and is entirely funded through the support of local churches, organizations, and individuals. We receive very minimal support from a few local government agencies who give us yearly grants.",
-  logo: "",
+  logo: langleyLogo,
   tags: ["langley", "free", "no", "groceries", "hampers", "families"],
   phone:"604-533-0671",
   social: {
@@ -252,7 +266,7 @@ const resources = [
 {
   name: "Richmond Food Bank", 
   description: "The Richmond Food Bank is a dynamic hub that connects people, food, and services that are essential to health and well-being – the hallmark of a caring community. The Richmond Food Bank gives healthy and nutritionally-balanced food to more than 2200 people in a typical week, providing Richmond residents with healthy food choices and connecting our clients to services that address the root causes of poverty.",
-  logo: "",
+  logo: richmondLogo,
   tags: ["richmond", "free", "no", "groceries", "hampers"],
   phone:"604-271-5609",
   social: {
@@ -267,7 +281,7 @@ const resources = [
 {
   name: "Quest Food Exchange", 
   description: "Low-cost grocery store operating on a referral-only basis – email wellness@bcitsa.ca to begin the referral process: https://www.questoutreach.org/",
-  logo: "",
+  logo: questLogo,
   tags: ["groceries", "virtual", "burnaby", "newWest", "northVancouver", "surrey", "vancouver", "yes"],
   phone:"604-602-0186",
   social: {
@@ -281,7 +295,7 @@ const resources = [
 {
   name: "BC Farmers’ Market Nutrition Coupon Program", 
   description: "Farmers Market coupons to lower-income families, pregnant people and seniors participating in their programs. https://bcfarmersmarket.org/coupon-program/where-it-operates/",
-  logo: "",
+  logo: farmersLogo,
   tags: ["burnaby", "newWest", "northVancouver", "surrey", "vancouver", "richmond", "triCities", "freshFood", "families", "yes"],
   phone:"604-734-9797",
   social: {
@@ -295,7 +309,7 @@ const resources = [
 {
   name: "Ryan’s Rainbow Emergency Food Outreach", 
   description: "Provides weekly grocery hampers.",
-  logo: "",
+  logo: ryanLogo,
   tags: ["groceries", "hampers", "burnaby", "no", "freshFood",],
   phone:"604-761-4357",
   social: {
@@ -309,7 +323,7 @@ const resources = [
 {
   name: "Food Stash Rescued Food Market", 
   description: "Zero waste grocery market, stocked with nutritious surplus food. Choose what you want, pay what you feel. Every Friday, 3:30-6:00PM. https://www.foodstash.ca/market ",
-  logo: "",
+  logo: foodStashLogo,
   tags: ["vancouver", "groceries", "sustainable", "freshFood", "free", "lowCost", "no"],
   phone:"604-862-9701",
   social: {
@@ -323,7 +337,7 @@ const resources = [
 {
   name: "House of Omeed", 
   description: "Provides free culturally diverse food to low-income newcomers every week. Must book an appointment online or by phone.",
-  logo: "",
+  logo: omeedLogo,
   tags: ["burnaby", "groceries", "freshFood", "sustainable", "free", "yes"],
   phone:"604-565-4464",
   social: {
@@ -337,7 +351,7 @@ const resources = [
 {
   name: "Muslim Food Bank", 
   description: "Provides monthly food hampers designed to cater to specific dietary and cultural needs (vegan or religious dietary restrictions).",
-  logo: "",
+  logo: muslimLogo,
   tags: ["burnaby", "surrey", "freshFood", "hampers", "groceries", "families", "free", "no"],
   phone:"1.866.248.3868 Ext 1",
   social: {
@@ -351,7 +365,7 @@ const resources = [
 {
   name: "Saige Food Bank & Community Kitchen", 
   description: "Provides a no barrier safe space for transgender and gender non-conforming or queer individuals to access healthy food. ",
-  logo: "",
+  logo: saigeLogo,
   tags: ["freshFood", "groceries", "kitchen", "vancouver", "no"],
   phone:"Please email with any questions.",
   social: {
@@ -365,7 +379,7 @@ const resources = [
 {
   name: "SHARE Food Bank", 
   description: "Provides weekly food hampers at their Port Moody, Coquitlam and Port Coquitlam locations. ",
-  logo: "",
+  logo: shareLogo,
   tags: ["triCities", "freshFood", "kitchen"],
   phone:"604.540.9161",
   social: {
@@ -374,6 +388,55 @@ const resources = [
   },
   address: "Various locations across Tri-Cities",
   notes: "Please use their contact form to get in touch: https://sharesociety.ca/contact"
+},
+
+{
+  name: "The vancouver Food Asset Map", 
+  description: "The Vancouver Food Asset Map highlights food assets located across the city of Vancouver",
+  logo: mapLogo,
+  tags: ["vancouver", "free", "virtual", "groceries", "meals", "hampers", "freshFood", "nutrition", "kitchen", "financialAssistance", "no"],
+  phone:"https://www.google.com/maps/d/viewer?mid=1XEmhBp-1P0xxH7ZPFMc76sBFb2U&ll=49.24769873042258%2C-123.1420403&z=12 ",
+  social: {
+      "website": "https://www.google.com/maps/d/viewer?mid=1XEmhBp-1P0xxH7ZPFMc76sBFb2U&ll=49.24769873042258%2C-123.1420403&z=12 ",
+  },
+  address: "Various locations across Vancouver",
+  notes: "Please use the map link to find the asset map: https://www.google.com/maps/d/viewer?mid=1XEmhBp-1P0xxH7ZPFMc76sBFb2U&ll=49.24769873042258%2C-123.1420403&z=12 "
+},
+{
+  name: "The Richmond Food Asset Map", 
+  description: "The Richmond Food Asset Map highlights food assets located across the city of Richmond",
+  logo: mapLogo,
+  tags: ["richmond", "free", "virtual", "groceries", "meals", "hampers", "freshFood", "nutrition", "kitchen", "financialAssistance", "no"],
+  phone:"https://www.google.com/maps/d/u/0/viewer?mid=10Pc_lJ_yoytHv5ME63NnXhdRDOA&ll=49.157261010026666%2C-123.12608205588225&z=12  ",
+  social: {
+      "website": "https://www.google.com/maps/d/u/0/viewer?mid=10Pc_lJ_yoytHv5ME63NnXhdRDOA&ll=49.157261010026666%2C-123.12608205588225&z=12 ",
+  },
+  address: "Various locations across Richmond",
+  notes: "Please use the map link to find the asset map: https://www.google.com/maps/d/u/0/viewer?mid=10Pc_lJ_yoytHv5ME63NnXhdRDOA&ll=49.157261010026666%2C-123.12608205588225&z=12 "
+},
+{
+  name: "The North Shore Food Asset Map", 
+  description: "The North Shore Food Asset Map highlights food assets located across the city of North vancouver",
+  logo: mapLogo,
+  tags: ["northVancouver", "free", "virtual", "groceries", "meals", "hampers", "freshFood", "nutrition", "kitchen", "financialAssistance", "no"],
+  phone:"https://www.google.com/maps/d/viewer?mid=1XEmhBp-1P0xxH7ZPFMc76sBFb2U&ll=49.24769873042258%2C-123.1420403&z=12",
+  social: {
+      "website": "https://www.google.com/maps/d/viewer?mid=1XEmhBp-1P0xxH7ZPFMc76sBFb2U&ll=49.24769873042258%2C-123.1420403&z=12",
+  },
+  address: "Various locations across North Vancouver",
+  notes: "Please use the map link to find the asset map: https://www.google.com/maps/d/viewer?mid=1XEmhBp-1P0xxH7ZPFMc76sBFb2U&ll=49.24769873042258%2C-123.1420403&z=12"
+},
+{
+  name: "The Burnaby and New West Food Asset Map", 
+  description: "The Burnaby and New West Food Asset Map highlights food assets located across the cities of Burnaby and New West",
+  logo: mapLogo,
+  tags: ["burnaby", "newWest", "free", "virtual", "groceries", "meals", "hampers", "freshFood", "nutrition", "kitchen", "financialAssistance", "no"],
+  phone:"https://www.google.com/maps/d/view?hl=en&mid=1bAw4Ubn93CIoaCd32_HEKbJ6GjrD9FBd&ll=49.237641271892%2C-122.90999999999998&z=17",
+  social: {
+      "website": "https://www.google.com/maps/d/view?hl=en&mid=1bAw4Ubn93CIoaCd32_HEKbJ6GjrD9FBd&ll=49.237641271892%2C-122.90999999999998&z=17",
+  },
+  address: "Various locations across Burnaby and New West",
+  notes: "Please use the map link to find the asset map: https://www.google.com/maps/d/view?hl=en&mid=1bAw4Ubn93CIoaCd32_HEKbJ6GjrD9FBd&ll=49.237641271892%2C-122.90999999999998&z=17"
 },
 
 ];

@@ -58,20 +58,6 @@ function Filter(props) {
               <Card.Header>{getDisplayNameForCategory(category)}</Card.Header>
             </Card.Content>
             <Card.Content>{createList(category, val)}</Card.Content>
-            <CardContent style={{ border: "none", paddingTop: "0px" }}>
-              <Collapsible
-                trigger="SHOW MORE ▼"
-                triggerWhenOpen="SHOW LESS ▲"
-                transitionTime={310}
-                triggerStyle={{
-                  cursor: "pointer",
-                  color: "darkblue",
-                  fontWeight: "500",
-                }}
-              >
-                {createSubList(category, val)}
-              </Collapsible>
-            </CardContent>
           </Card>
         </Grid.Row>
       );

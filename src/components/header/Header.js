@@ -82,38 +82,10 @@ function Header(props) {
     <section className="b1">
       <div className="stuff">
         <img className="titleImage" src={logo} alt="Campus Lightbox" />
-        <div className="guide">Your Guide to BCITSA Food support resources</div>
-        <div className="select">Select From One of the Following Options</div>
+        <div className="guide">Your Guide to BCITSA and external community food support</div>
+        <div className="select">See below for on-campus and off-campus food support resources</div>
 
-        <div className="buttonsAll">
-          <span className="resourceButton1 animated fadeIn">
-            <Button
-              inverted
-              style={styles.button}
-              onClick={() => onFilterClicked("groceries")} // RETURN
-            >
-              Groceries
-            </Button>
-          </span>
-          <span className="resourceButton2 animated fadeIn">
-            <Button
-              inverted
-              style={styles.button}
-              onClick={() => onFilterClicked("sustainable")} // RETURN
-            >
-              Sustainable
-            </Button>
-          </span>
-          <span className="resourceButton3 animated fadeIn">
-            <Button
-              inverted
-              style={styles.button}
-              onClick={() => onFilterClicked("hampers")} // RETURN
-            >
-              Hampers
-            </Button>
-          </span>
-        </div>
+        
         <br />
         <br />
         
