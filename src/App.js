@@ -11,6 +11,8 @@ ReactGA.initialize("UA-139413334-1");
 ReactGA.pageview("Homepage");
 
 class App extends React.Component {
+
+
   constructor(props) {
     super(props);
     this.state = {
@@ -34,6 +36,14 @@ class App extends React.Component {
       return currItem === item;
     });
 
+    console.log(category);
+
+    let virtualIsCurrentlySelected = console.log(_.find(this.state.filter[category], (currItem) => {
+      return currItem === "virtual";
+    }));
+
+
+
     let newState = _.clone(this.state);
 
     if (existingItem) {
@@ -51,6 +61,24 @@ class App extends React.Component {
         action: "Clicked On Filter: " + item,
       });
       newState.filter[category].push(item);
+    }
+
+    if (!virtualIsCurrentlySelected) {
+      // Not selected, select it
+      ReactGA.event({
+        category: "Filters",
+        action: "Clicked On Filter: " + "virtual",
+      });
+      newState.filter[category].push("virtual");
+
+      if(item === "virtual"){
+        newState.filter[category] = _.filter(
+          newState.filter[category],
+          (currItem) => {
+            return currItem !== existingItem;
+          }
+        );
+      }
     }
 
     this.setState(newState);

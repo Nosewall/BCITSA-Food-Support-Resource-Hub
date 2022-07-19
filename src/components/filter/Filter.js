@@ -84,7 +84,7 @@ function Filter(props) {
           ) : (
             <Checkbox
               checked={existingItem ? true : false}
-              onClick={() => props.onFilterChange(category, item.tag)}
+              onClick={() => props.onFilterChange(category, item.tag, item.category)}
               label={item.displayName}
             />
           )}
@@ -111,7 +111,7 @@ function Filter(props) {
           {item.show ? (
             <Checkbox
               checked={existingItem ? true : false}
-              onClick={() => props.onFilterChange(category, item.tag)}
+              onClick={() => props.onFilterChange(category, item.tag, item.category)}
               label={item.displayName}
             />
           ) : (
@@ -184,7 +184,7 @@ function Filter(props) {
             size="small"
             style={styles.filterButton}
             active={existingItem ? true : false}
-            onClick={() => props.onFilterChange(category, item.tag)}
+            onClick={() => props.onFilterChange(category, item.tag, item.category)}
             content={item.displayName}
           />
         </List.Item>
