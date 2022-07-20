@@ -40,7 +40,7 @@ const FixedMenuLayout = () => (
       <Container textAlign="center">
         <Grid stackable>
           <Grid.Column width={5} alignitems="center">
-            <Header inverted as="h4" content="Food Support Hub has been forked from a project created by:" />
+            <Header inverted as="h4" content="The Community Food Network has been forked from a project created by:" />
             <Modal
               trigger={
                 <Button onClick={() => trackGA('About Project Aurora')}>
