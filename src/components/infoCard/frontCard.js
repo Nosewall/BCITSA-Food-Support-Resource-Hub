@@ -5,7 +5,7 @@ import { styles, isOpen } from "./InfoCard";
 import MediaQuery from "react-responsive";
 import MediaQueryHelper from "static/MediaQueryHelper";
 import _ from "underscore";
-import defaultbackground from "./mountains.jpg";
+import defaultbackground from "./CommunityFoodNetwork_Card.png";
 import Tags from "static/Tags";
 import moment from "moment";
 import Linkify from "linkify-react";

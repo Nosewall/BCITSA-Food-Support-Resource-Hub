@@ -5,7 +5,7 @@ import "./animate.css";
 import { Button, Icon, Modal } from "semantic-ui-react";
 import React, { useEffect, useState } from "react";
 import ReactGA from "react-ga";
-import logo from "./FSH_PrimaryLogo.png";
+import logo from "./SACommunityFoodNetworkLogo.png";
 
 ReactGA.initialize("UA-139413334-1");
 
