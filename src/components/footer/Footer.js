@@ -11,6 +11,7 @@ import PrivacyPolicy from 'components/footer/PrivacyPolicy';
 import React from 'react';
 import ReactGA from 'react-ga';
 
+
 ReactGA.initialize('UA-139413334-1');
 
 const trackGA = (buttonName) => {
@@ -34,13 +35,14 @@ const FixedMenuLayout = () => (
       style={{
         margin: '5em 0em 0em',
         padding: '3em 0em',
-        background: '#40798C',
+        background: '#F3C9B7',
+        color: '#000000',
       }}
     >
       <Container textAlign="center">
         <Grid stackable>
           <Grid.Column width={5} alignitems="center">
-            <Header inverted as="h4" content="The Community Food Network has been forked from a project created by:" />
+            <Header className="footerBlack" inverted as="h4" content="The Community Food Network has been forked from a project created by:" />
             <Modal
               trigger={
                 <Button onClick={() => trackGA('About Project Aurora')}>
@@ -94,7 +96,7 @@ const FixedMenuLayout = () => (
               href="mailto:info@bcitsa.ca"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: 'white', textDecoration: 'none' }}
+              style={{ color: 'red', textDecoration: 'none' }}
             >
               info@bcitsa.ca
             </a>
@@ -103,7 +105,7 @@ const FixedMenuLayout = () => (
           </Grid.Column>
 
           <Grid.Column width={4} alignitems="center">
-            <Header inverted as="h4" content="Follow us:" />
+            <Header inverted as="h4" content="Follow us:" className="footerBlack"/>
             <Button.Group style={styles.socialGroup}>
               <a
                 href="https://www.facebook.com/BCITSA"
@@ -166,6 +168,7 @@ const FixedMenuLayout = () => (
               inverted
               as="h4"
               content="Notice of Non­-Affiliation and Disclaimer:"
+              className="footerBlack"
             />
             <h6>
               We are not affiliated, associated, authorized, endorsed by, or in
@@ -175,7 +178,7 @@ const FixedMenuLayout = () => (
                 href="https://www.bcit.ca/"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: 'white', textDecoration: 'none' }}
+                style={{ color: 'red', textDecoration: 'none' }}
               >
                 here
               </a>
