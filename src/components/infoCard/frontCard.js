@@ -21,6 +21,7 @@ const FrontCard = (props) => {
       return (
         <Label
           as="a"
+          onClick={() => this.onFilterChange(null, name)}
           key={displayName}
           style={_.extend(
             { backgroundColor: color, borderColor: color },
