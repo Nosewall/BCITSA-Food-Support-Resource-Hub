@@ -35,7 +35,7 @@ const FixedMenuLayout = () => (
       style={{
         margin: '5em 0em 0em',
         padding: '3em 0em',
-        background: '#F3C9B7',
+        background: '#e2ded7',
         color: '#000000',
       }}
     >
@@ -45,7 +45,11 @@ const FixedMenuLayout = () => (
             <Header className="footerBlack" inverted as="h4" content="The Community Food Network has been forked from a project created by:" />
             <Modal
               trigger={
-                <Button onClick={() => trackGA('About Project Aurora')}>
+                <Button onClick={() => trackGA('About Project Aurora')} 
+                style={{
+                  background: '#f19f80',
+                  color: 'white',
+                }}>
                   © Project Aurora
                 </Button>
               }
