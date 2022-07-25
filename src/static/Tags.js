@@ -19,7 +19,7 @@ const tags = {
   
   northVancouver: {
     category: "Location",
-    displayName: "North vancouver",
+    displayName: "North Vancouver",
     color: "#1971BD",
     show: true,
     TopTen: true,
