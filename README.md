@@ -9,19 +9,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/campuslightbox/Campus-Lightbox">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Nosewall/BCITSA-Food-Support-Resource-Hub">
+    <img src="images/Wellness Icons_Community Food Network.png" alt="Community Food nedtwork icon" width="80" height="80">
   </a>
 
-  <h2 align="center">Campus Lightbox ✨</h2>
+  <h2 align="center">🍍 Community Food Network 🍍</h2>
   <p align="center">
-    Your Guide to UBC Mental Health Resources. Visit us at : 
-    <a href="https://campuslightbox.com/">CampusLightbox.com</a>
+    Your guide to food support in the lower mainland. Visit us at : 
+    <a href="https://foodnetwork.bcitsa.ca/">FoodNetwork.bcitsa.ca</a>
     <br />
     <br />
-    <a href="https://github.com/campuslightbox/Campus-Lightbox/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/campuslightbox/Campus-Lightbox/issues">Request Feature</a>
   </p>
 </p>
 
@@ -33,16 +30,12 @@
 - [Technology Stack 🛠️](#technology-stack-%EF%B8%8F)
 - [Prerequisites 🍪](#prerequisites-)
 - [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Contributors 🖥](#contributors-)
-- [Contact 📧](#contact-)
 
 ## Our Mission 🧠
 
-Campus Lightbox was envisioned and created by [Project Aurora](https://www.projectaurora.ca/).
+The Community food network was forked from Campus Lightbox, a project created by [Project Aurora](https://www.projectaurora.ca/).
 
-We are a group of UBC students seeking to dismantle the barriers between campus mental health resources and those who are in need of it.
-
-We hope to continue the much-­needed conversation about student wellness on college campuses across the country and to empower students to take charge of their mental health.
+Food insecurity has severe implications for one’s health and wellbeing. Post-secondary students are particularly vulnerable, with over 50% of students at Canadian post-secondary institutions experiencing moderate to severe levels of food insecurity. The Food Support Hub is an all-encompassing service that includes several different avenues for all BCIT students to access support.
 
 ![Cards preview](/images/cards.png)
 
@@ -66,7 +59,7 @@ You should have [Node.js](https://nodejs.org/en/), [Yarn](https://classic.yarnpk
 1. Clone the repo using:
 
    ```bash
-     git clone https://github.com/campuslightbox/Campus-Lightbox.git
+     git clone https://github.com/Nosewall/BCITSA-Food-Support-Resource-Hub
    ```
 
 2. To start the development server, run the following bash commands:
@@ -89,45 +82,5 @@ You should have [Node.js](https://nodejs.org/en/), [Yarn](https://classic.yarnpk
 4. Congrats! The updated website is up and running. To see it live, visit:
 
    ```https
-     https://campuslightbox.com
+     https://foodnetwork.bcitsa.ca
    ```
-
-## Contributors 🖥
-
-**Active Members:**
-
-Sassan Shokoohi - [GitHub](https://github.com/sassansh) - [LinkedIn](https://www.linkedin.com/in/sassanshokoohi/)
-
-Cindy Lin - [GitHub](https://github.com/LanguageXange)
-
-Maiya Rasheed - [GitHub](https://github.com/maiyaer)
-
-<br />
-
-**Past Members:**
-
-Camellia Peng - [GitHub](https://github.com/cching0L2)
-
-Shamit Rahman - [GitHub](https://github.com/rahmanshamit)
-
-Jarvin Rivera - [GitHub](https://github.com/Jrivera1625)
-
-## Contact 📧
-
-If you're interested in joining our team, email us at admin@campuslightbox.com
-
-Project Link: [https://github.com/campuslightbox/Campus-Lightbox](https://github.com/campuslightbox/Campus-Lightbox)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/campuslightbox/Campus-Lightbox.svg?style=for-the-badge
-[contributors-url]: https://github.com/campuslightbox/Campus-Lightbox/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/campuslightbox/Campus-Lightbox.svg?style=for-the-badge
-[forks-url]: https://github.com/campuslightbox/Campus-Lightbox/network/members
-[stars-shield]: https://img.shields.io/github/stars/campuslightbox/Campus-Lightbox.svg?style=for-the-badge
-[stars-url]: https://github.com/campuslightbox/Campus-Lightbox/stargazers
-[issues-shield]: https://img.shields.io/github/issues/campuslightbox/Campus-Lightbox.svg?style=for-the-badge
-[issues-url]: https://github.com/campuslightbox/Campus-Lightbox/issues
-[license-shield]: https://img.shields.io/github/license/campuslightbox/Campus-Lightbox.svg?style=for-the-badge
-[license-url]: https://github.com/campuslightbox/Campus-Lightbox/blob/master/LICENSE
