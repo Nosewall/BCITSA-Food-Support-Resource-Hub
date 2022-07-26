@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Nosewall/BCITSA-Food-Support-Resource-Hub">
-    <img src="images/Wellness Icons_Community Food Network.png" alt="Community Food nedtwork icon" width="80" height="80">
+    <img src="images/Wellness Icons_Community Food Network_03.png" alt="Community Food nedtwork icon" width="80" height="80">
   </a>
 
   <h2 align="center">🍍 Community Food Network 🍍</h2>
