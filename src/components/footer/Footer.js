@@ -65,6 +65,16 @@ const FixedMenuLayout = () => (
                     <p>
                       Food Support Hub was adapted from {' '}
                       <a
+                        href="https://campuslightbox.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <b>Campus Lightbox</b>
+                      </a>
+                    </p>
+                    <p>
+                      The brain child of {' '}
+                      <a
                         href="https://www.projectaurora.ca/"
                         target="_blank"
                         rel="noopener noreferrer"
