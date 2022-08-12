@@ -52,6 +52,7 @@
 .titleImage {
   margin-top: calc(5px + (15 - 5) * ((100vw - 300px) / (1600 - 300)));
   width: 40%;
+  image-rendering: auto;
 }
 
 .stuff h4 {
