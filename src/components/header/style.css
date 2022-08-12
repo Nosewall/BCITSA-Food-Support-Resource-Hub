@@ -7,10 +7,11 @@
   background-repeat: no-repeat;
   background-size: cover !important;
   -webkit-background-size: cover !important;
-  background-image: url(bg.png);
+  background-image: url(CommunityFoodNetwork_Hero.svg);
   width: 100%;
   min-height: 110vh;
   text-align: center;
+  image-rendering: pixelated;
 }
 
 .helpbutton {
