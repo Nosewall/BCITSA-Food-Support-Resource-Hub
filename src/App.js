@@ -36,13 +36,9 @@ class App extends React.Component {
       return currItem === item;
     });
 
-    console.log(category);
-
     let virtualIsCurrentlySelected = console.log(_.find(this.state.filter[category], (currItem) => {
       return currItem === "virtual";
     }));
-
-
 
     let newState = _.clone(this.state);
 
@@ -63,7 +59,7 @@ class App extends React.Component {
       newState.filter[category].push(item);
     }
 
-    if (!virtualIsCurrentlySelected) {
+    if (!virtualIsCurrentlySelected && category == "Location") {
       // Not selected, select it
       ReactGA.event({
         category: "Filters",
