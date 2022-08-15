@@ -437,6 +437,14 @@ const resources = [
   },
   address: "Various locations across Burnaby and New West",
   notes: "Please use the map link to find the asset map: https://www.google.com/maps/d/view?hl=en&mid=1bAw4Ubn93CIoaCd32_HEKbJ6GjrD9FBd&ll=49.237641271892%2C-122.90999999999998&z=17"
+},{
+  name: "Purpose Society", 
+  description: "Offers food hampers. Bagged groceries are available on Fridays at noon from the side door on Alexander Street.",
+  logo: "",
+  tags: ["newWest", "free", "hampers", "groceries", "no"],
+  phone:"604-526-2522",
+  email: "",
+  address: "40 Begbie St., New Westminister",
 },
 
 ];
